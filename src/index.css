@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&family=Orbitron&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+body,
+html {
+  background: #101010;
+  font-family: "Orbitron", sans-serif;
+  font-size: 14px;
+  color: #000;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Hero-bg {
+  background-image: url(./assets/HeroImage.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.about-bg {
+  background-image: url(./assets/pixelCar1.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+  .Hero-bg {
+    height: 80vh;
+  }
+  .about-bg {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.servicebg {
+  background-image: url(./assets/servicesbg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.faq-bg {
+  background-image: url(./assets/Contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50vh;
+}
+
+.swiper {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+}
+
+@media screen and (max-width: 450px) {
+  .swiper {
+    height: 400px;
+  }
+}
+
+.swiper-slide {
+  /* position:absolute; */
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
