@@ -1,7 +1,5 @@
 import React from "react";
-import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaPinterestP } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -70,13 +68,6 @@ const Footer = () => {
             <h1 className="text-xl font-bold text-color4">Social Media</h1>
             <div className="grid space-y-2 ">
               <a
-                href="https://www.facebook.com/share/1DAD4D68z1/?mibextid=LQQJ4d"
-                target="_blank"
-                className=" hover:text-color1"
-              >
-                Facebook
-              </a>
-              <a
                 href="https://x.com/degeorge_?s=21"
                 target="_blank"
                 className=" hover:text-color1"
@@ -109,16 +100,6 @@ const Footer = () => {
           <p className="text-sm"> &#64; 2024 George. All Copyright Reserved</p>
         </div>
         <div className="flex flex-row md:w-1/3 justify-center items-center align-middle content-center text-center text-[16px space-x-5  text-[16px] text-bold py-3">
-          <a
-            href="https://www.facebook.com/share/1DAD4D68z1/?mibextid=LQQJ4d"
-            target="_blank"
-            className="text-color4 hover:text-color1"
-          >
-            {" "}
-            <span>
-              <FaFacebookF />
-            </span>
-          </a>
           <a
             href="https://www.instagram.com/geoxinho?igsh=amV1Z2w2YmVxMTR0&utm_source=qr"
             target="_blank"
